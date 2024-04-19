@@ -1,0 +1,183 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec; /* Rosa bebê */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o contêiner principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para o cabeçalho */
+.header {
+    text-align: center;
+}
+
+/* Estilo para o título do convite */
+.header h1 {
+    color: #e91e63; /* Rosa Barbie */
+    font-size: 36px;
+}
+
+/* Estilo para o conteúdo */
+.content {
+    margin-top: 20px;
+	flex: 1; /* Faz com que a div expanda para preencher o espaço disponível */
+    background-color: #FFC0CB; /* Rosa claro */
+    padding: 20px;
+    border-radius: 10px; /* Borda arredondada */
+	text-align: center;
+}
+
+/* Estilo para a imagem da Barbie */
+.content img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os parágrafos do convite */
+.content p {
+    color: #333;
+    font-size: 18px;
+	font-weight: bold;
+    line-height: 1.5;
+	text-align: center;
+}
+
+/* Estilo para labels em negrito e cor rosa */
+.label {
+	font-weight: bold;
+	font-size: 22px; /* Aumenta o tamanho da fonte */
+    color: #e91e63; /* Rosa Barbie */
+}
+
+/* Estilo para inputs e select com a cor de texto rosa */
+.input {
+    color: #e91e63; /* Rosa Barbie */
+	font-size: 22px; /* Aumenta o tamanho da fonte */
+	border-radius: 10px; /* Arredonda as bordas */
+}
+
+/* Estilo para aumentar o tamanho do input do nome */
+#nome {
+    width: 300px; /* Ajuste o tamanho conforme necessário */
+}
+
+/* Estilo para aumentar o tamanho e arredondar o select */
+select.input {
+    width: 320px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 10px; /* Arredonda as bordas */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+}
+
+/* Estilo para aumentar o tamanho do botão */
+.button {
+    padding: 10px 20px; /* Ajuste o padding conforme necessário */
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff4081; /* Rosa forte */
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Estilo para o botão Formulário */
+#botaoFormulario {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff4081; /* Rosa forte */
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#botaoFormulario:hover {
+    background-color: #f50057; /* Rosa forte (tom mais escuro) */
+}
+
+/* Estilo para o botão Conferir Convidados */
+#conferirConvidados {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #FFC0CB; /* Rosa claro */
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#conferirConvidados:hover {
+    background-color: #d81b60; /* Rosa Barbie (tom mais escuro) #e91e63*/
+}
+
+
+/* Estilo para o botão Conferir Convidados */
+#botaoLimpar {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #FFC0CB; /* Rosa claro */
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#botaoLimpar:hover {
+    background-color: #d81b60; /* Rosa Barbie (tom mais escuro) #e91e63*/
+}
+
+/* Estilo para a imagem com alt="barbie2" */
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; /* Faz a imagem ter bordas arredondadas, criando um efeito de círculo */
+}
+
+/* Estilo para a div contêiner das tabelas */
+.tabelas-container {
+    display: flex; /* Faz com que os elementos filhos sejam exibidos em linha */
+    justify-content: space-between; /* Distribui o espaço entre as tabelas */
+}
+
+/* Estilo para a div da tabela de confirmados */
+.tabela-confirmados,
+.tabela-nao-confirmados {
+    flex: 1; /* Faz com que a div expanda para preencher o espaço disponível */
+    background-color: #FFC0CB; /* Rosa claro */
+    padding: 20px;
+    border-radius: 10px; /* Borda arredondada */
+    width: 85%; /* Define a largura da tabela */
+    box-sizing: border-box; /* Inclui o padding e a borda na largura total */
+	margin-right: 20px; /* Espaçamento entre as tabelas */
+}
+
+/* Estilo para as células das tabelas */
+.tabela-confirmados td,
+.tabela-nao-confirmados td {
+    padding: 12px; /* Ajusta o espaçamento interno das células */
+    text-align: center; /* Centraliza o conteúdo das células */
+    font-size: 16px; /* Define o tamanho da fonte */
+}
